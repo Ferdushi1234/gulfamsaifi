@@ -24,7 +24,7 @@ const Projects = () => {
         <ProjectCard
           src="/SpaceWebsite.png"
           title="Movies Exploring Website"
-          description="It is the movies exploring websites, I used the next.js programming language with NextOuth."
+          description="It is the movies exploring web, I used the next.js programming language with NextOuth."
         />
       </div>
     </div>
