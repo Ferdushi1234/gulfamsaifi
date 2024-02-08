@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   applicationName: 'a plus studio',
   referrer: 'origin-when-cross-origin',
   keywords: ['gulfaam saifi', 'gulfaam', 'gulfaam saifi','gulfam software engineer', 'gulfam web developer', 'gscoder','gs coder', 'gulfaam dadri', 'gulfam dadri','gulfam saifi dadri','gulfam developer'],
-  authors: [{ name: 'gulfam saifi || gulfaam saifi', url:'https://gulfaam.netlify.app/' }, { name: 'gulfam saifi', url: 'https://gulfam.in' }],
+  authors: [{ name: 'gulfam saifi || gulfaam saifi', url:'https://gulfaam.netlify.app/' }, { name: 'gulfam saifi', url: 'https://gulfaam.com' }],
   creator: 'gulfam saifi',
   publisher: 'gulfam saifi || gulfaam',
   formatDetection: {
