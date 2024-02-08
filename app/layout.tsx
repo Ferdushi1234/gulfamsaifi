@@ -8,9 +8,64 @@ import Footer from "@/components/main/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Gulfam saifi || Gulfaam",
-  description: "This is my portfolio",
-};
+  manifest:'manifest.webmanifest',
+  title: {
+    template: '%s | Gulfam saifi || gulfaam saifi',
+    default: 'Gulfam saifi || gulfaam saifi', // a default is required when creating a template
+  },
+  description: 'Discover  unequaled  design mastery at Gulfam saifi || gulfaam saifi , gulfam saifi web developer , gulfaam, ',
+  
+  metadataBase: new URL('https://dapper-malabi-b6ad79.netlify.app/'),
+  generator: 'a plus studio',
+  applicationName: 'a plus studio',
+  referrer: 'origin-when-cross-origin',
+  keywords: ['gulfaam saifi', 'gulfaam', 'gulfaam saifi','gulfam software engineer', 'gulfam web developer', 'gscoder','gs coder', 'gulfaam dadri', 'gulfam dadri','gulfam saifi dadri','gulfam developer'],
+  authors: [{ name: 'gulfam saifi || gulfaam saifi', url:'https://dapper-malabi-b6ad79.netlify.app/' }, { name: 'gulfam saifi', url: 'https://gulfam.in' }],
+  creator: 'gulfam saifi',
+  publisher: 'gulfam saifi || gulfaam',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  icons: {
+    icon: [{ url: '/favicon.ico' }, new URL('/favicon.ico', 'https://dapper-malabi-b6ad79.netlify.app/')],
+    shortcut: ['/shortcut-icon.png'],
+    apple: [
+      { url: '/favicon.ico' },
+      { url: '/favicon.ico', sizes: '180x180', type: 'image/png' },
+    ],
+    other: [
+      {
+        rel: 'apple-touch-icon-precomposed',
+        url: '/favicon.ico',
+      },
+    ],
+  },
+  verification: {
+    google: 'bdLbDU8AMC-KYqW8F2RbsdY_MsKb8TWpxKg9QwUPWsw',
+    other: {
+      me: ['my-email', 'my-link'],
+    },
+  },
+
+  alternates: {
+    canonical: '/service',
+  },
+  openGraph: {
+    title:'Gulfam saifi || gulfaam saifi',
+    description: ' Gulfam saifi || gulfaam saifi , Discover  unequaled  design mastery at Gulfam saifi || gulfaam saifi – where invention meets complication. Elevate your space with bespoke innards that  review luxury and reflect your unique style. aplusstudio noida',
+  
+    images: [{
+      url: '/boy.png',
+      width: 400,
+      height: 300,
+    }]
+  },
+  
+
+
+}
 
 export default function RootLayout({
   children,
