@@ -15,12 +15,12 @@ export const metadata: Metadata = {
   },
   description: 'Discover  unequaled  design mastery at Gulfam saifi || gulfaam saifi , gulfam saifi web developer , gulfaam, ',
   
-  metadataBase: new URL('https://dapper-malabi-b6ad79.netlify.app/'),
+  metadataBase: new URL('https://gulfaam.netlify.app/'),
   generator: 'a plus studio',
   applicationName: 'a plus studio',
   referrer: 'origin-when-cross-origin',
   keywords: ['gulfaam saifi', 'gulfaam', 'gulfaam saifi','gulfam software engineer', 'gulfam web developer', 'gscoder','gs coder', 'gulfaam dadri', 'gulfam dadri','gulfam saifi dadri','gulfam developer'],
-  authors: [{ name: 'gulfam saifi || gulfaam saifi', url:'https://dapper-malabi-b6ad79.netlify.app/' }, { name: 'gulfam saifi', url: 'https://gulfam.in' }],
+  authors: [{ name: 'gulfam saifi || gulfaam saifi', url:'https://gulfaam.netlify.app/' }, { name: 'gulfam saifi', url: 'https://gulfam.in' }],
   creator: 'gulfam saifi',
   publisher: 'gulfam saifi || gulfaam',
   formatDetection: {
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     telephone: false,
   },
   icons: {
-    icon: [{ url: '/favicon.ico' }, new URL('/favicon.ico', 'https://dapper-malabi-b6ad79.netlify.app/')],
+    icon: [{ url: '/favicon.ico' }, new URL('/favicon.ico', 'https://gulfaam.netlify.app/')],
     shortcut: ['/shortcut-icon.png'],
     apple: [
       { url: '/favicon.ico' },
