@@ -20,7 +20,6 @@ const HeroContent = () => {
       animate="visible"
       className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
     >
-      
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
           variants={slideInFromTop}
@@ -28,7 +27,7 @@ const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            Fullstack Developer Portfolio
+            Gulfam saifi, gulfaam saifi, gscoder
           </h1>
         </motion.div>
 
@@ -54,7 +53,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website, and Software development. Check out my projects and skills.thanx from gulfam saifi || gulfaam saifi.
+          I&apos;m a Full Stack Software Engineer with experience in Website, and Software development. Check out my projects and skills.thanx from gulfam saifi || gulfaam saifi, gscoder.
         </motion.p>
       
           <motion.a

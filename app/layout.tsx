@@ -10,19 +10,19 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   manifest:'manifest.webmanifest',
   title: {
-    template: '%s | Gulfam saifi || gulfaam saifi',
-    default: 'Gulfam saifi || gulfaam saifi', // a default is required when creating a template
+    template: '%s | Gulfam saifi || gulfaam saifi || gscoder',
+    default: 'Gulfam saifi || gulfaam saifi,gscoder', // a default is required when creating a template
   },
-  description: 'Discover  unequaled  design mastery at Gulfam saifi || gulfaam saifi , gulfam saifi web developer , gulfaam, ',
+  description: 'Discover gscoder unequaled  design mastery at Gulfam saifi || gulfaam saifi , gulfam saifi web developer , gulfaam, ',
   
   metadataBase: new URL('https://gulfaam.netlify.app/'),
-  generator: 'a plus studio',
-  applicationName: 'a plus studio',
+  generator: ' Gulfam saifi || gulfaam saifi, gscoder',
+  applicationName: ' Gulfam saifi || gulfaam saifi, gscoder',
   referrer: 'origin-when-cross-origin',
-  keywords: ['gulfaam saifi', 'gulfaam', 'gulfaam saifi','gulfam software engineer', 'gulfam web developer', 'gscoder','gs coder', 'gulfaam dadri', 'gulfam dadri','gulfam saifi dadri','gulfam developer'],
-  authors: [{ name: 'gulfam saifi || gulfaam saifi', url:'https://gulfaam.netlify.app/' }, { name: 'gulfam saifi', url: 'https://gulfaam.com' }],
+  keywords: ['gulfaam saifi', 'gulfaam','gccoder', 'gulfaam saifi','gulfam software engineer', 'gulfam web developer', 'gscoder','gs coder', 'gulfaam dadri', 'gulfam dadri','gulfam saifi dadri','gulfam developer'],
+  authors: [{ name: 'gulfam saifi || gulfaam saifi, gscoder', url:'https://gulfaam.netlify.app/' }, { name: 'gulfam saifi', url: 'https://gulfaam.com' }],
   creator: 'gulfam saifi',
-  publisher: 'gulfam saifi || gulfaam',
+  publisher: 'gulfam saifi || gulfaam saifi,gscoder ',
   formatDetection: {
     email: false,
     address: false,
@@ -42,6 +42,7 @@ export const metadata: Metadata = {
       },
     ],
   },
+
   verification: {
     google: 'xPjEkv7DdkG4QTgtNwngwvG4t6883Pz2ztKrL5k7NmI',
     other: {
@@ -53,8 +54,8 @@ export const metadata: Metadata = {
     canonical: '/service',
   },
   openGraph: {
-    title:'Gulfam saifi || gulfaam saifi',
-    description: ' Gulfam saifi || gulfaam saifi , Discover  unequaled  design mastery at Gulfam saifi || gulfaam saifi – where invention meets complication. Elevate your space with bespoke innards that  review luxury and reflect your unique style. aplusstudio noida',
+    title:'Gulfam saifi || gulfaam saifi || gscoder',
+    description: ' Gulfam saifi || gulfaam saifi , gscoder, Discover  unequaled  design mastery at Gulfam saifi || gulfaam saifi – where invention meets complication. Elevate your space with bespoke innards that  review luxury and reflect your unique style. aplusstudio noida',
   
     images: [{
       url: '/boy.png',
